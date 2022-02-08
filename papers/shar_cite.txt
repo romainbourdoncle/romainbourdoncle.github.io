@@ -1,0 +1,8 @@
+@article{doi:10.1080/0020174X.2022.2034526,
+author = {Bourdoncle,Romain},
+title = {Shareability of Thought and Frege’s Constraint: A Reply to Onofri},
+journal = {Inquiry},
+year = {2022},
+doi = {10.1080/0020174X.2022.2034526},
+
+}
