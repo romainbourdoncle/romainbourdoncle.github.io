@@ -1,0 +1,6 @@
+@phdthesis{Bourdoncle2022-ROMSLF-3,
+	school = {Ecole Normale Sup\'{e}rieure},
+	year = {2022},
+	title = {Samethinking},
+	author = {Romain Bourdoncle}
+}
