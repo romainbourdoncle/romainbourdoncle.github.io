@@ -2,61 +2,118 @@
 <html>
 <head>
     <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
-        <meta name="google-site-verification" content="DHT_IEVV9bIEL7gRi1Pb0Dtiv6krW9LVtc6ReLebl3U" />
-<title>Romain Bourdoncle philosophy</title><meta name="description" content="I am a PhD candidate at Institut Jean Nicod, École Normale Supérieure in Paris. 
-My research lies at the intersection of the philosophy of mind, language, and cognitive science.">
-<link rel="icon" type="image/x-icon" href="ico.ico">
-<style>
-    .justifier {
-  text-align: justify;
-  text-justify: inter-word;
-}
-    body {margin: 5% auto; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.6; max-width: 85%;}
-    code {background: white;}
-    a {border-bottom: 1px; text-decoration: none;}
-    a:hover {border-bottom: 0;}
-</style>
-</head>    
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
+    <meta name="google-site-verification" content="DHT_IEVV9bIEL7gRi1Pb0Dtiv6krW9LVtc6ReLebl3U" />
+    <title>Romain Bourdoncle philosophy</title>
+    <meta name="description" content="Personal website of Romain Bourdoncle, a postdoc working at the intersection of the philosophy of mind, language, and cognitive science">
+    <link rel="icon" type="image/x-icon" href="ico.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap">
 
-<body>
-    <h1 style="color:darkblue;">Romain Bourdoncle</h1> 
-  
-    <p>Welcome to my webpage. Here you can find my <a href="#papers">papers</a>, <a href="#teaching">teaching</a> materials, and <a href="#contact">contact</a> information.</p></nav>
+    <style>
+        body {
+            margin: 5% auto;
+            padding: 0 15%;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            max-width: 85%;
+            text-align: justify;
+            text-justify: inter-word;
+        }
         
-<h2>About</h2>
-<p>My research lies at the intersection of the philosophy of mind, language, and cognitive science. I obtained my PhD in December 2022 from the <a href="http://www.institutnicod.org">Institut Jean Nicod</a>, <a href="https://www.ens.psl.eu/">École Normale Supérieure</a> in Paris. My supervisors were <a href="https://www.college-de-france.fr/chaire/francois-recanati-philosophie-du-langage-et-de-esprit-chaire-statutaire">François Recanati</a> and <a href="http://www.caphi.univ-nantes.fr/_Michael-Murez_">Michael Murez</a>.</p>
+        code {
+            background: white;
+        } 
+        a {
+    border-bottom: 1px solid #000;  
+    text-decoration: none;
+}
 
-<p>In my thesis, I have investigated how we share representations in linguistic communication.
-My hypothesis is that communication does not involve the replication of thought from speaker to hearer, but rather a form of coordination of thoughts.
-My goal has been to characterize and explain interpersonal coordination so construed.</p>
+        a:hover {
+    color: red;
+}
 
-<p>Besides coordination in linguistic communication, I am interested in:
-<ul>
-    <li>the nature of human-machine semantic interactions;</li>
-    <li>the role of inner speech in the constitution of thought;</li>
-    <li>the notion of context in social media communication.</li>
+        figcaption {
+            font-size: 0.8em; 
+            font-family: 'Fira Sans', sans-serif;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
 
-</ul></p>
+@media (max-width: 600px) {
+    .responsive-image {
+        min-height: 300px;
+    }
+    body {
+        padding: 0;
+    }}
+section {margin-bottom: 30px;}
 
-<section id="papers">
-<h2>Papers</h2>
-<p><strong>Shareability of Thought and Frege’s Constraint: A Reply to Onofri</strong> <br>
-    <i>Inquiry: An Interdisciplinary Journal of Philosophy </i>(2022) <br>
-    <a type="application/pdf" href="https://nbviewer.org/github/romainbourdoncle/romainbourdoncle.github.io/blob/0e427b9e06fc0d17cc54b1bd31292400ee2570be/papers/shar.pdf">[preprint]</a> | 
-    <a href="https://doi.org/10.1080/0020174X.2022.2034526">[DOI]</a> | 
-    <a href="https://raw.githubusercontent.com/romainbourdoncle/romainbourdoncle.github.io/main/papers/shar_cite.txt">[cite]</a> |
-    <a href="https://www.tandfonline.com/eprint/KF44MMV2KTENSE3UTE8R/full?target=10.1080/0020174X.2022.2034526">[eprint link]</a>
+h1 {
+        color: darkblue;
+        font-weight: 300;
+        font-size: calc(2rem + 0.875vw); 
+        line-height: 1.2;
+    }
 
-</p>
-</section>
+/*h1 {
+    color: darkblue;
+    font-weight: 300;
+    font-size: 2.75em;
+}*/
+
+    </style>
+
+</head>
+
+<body>    
+    <h1>Romain Bourdoncle</h1> 
+      <nav>
+        <p>Welcome to my webpage. Here you can find my <a href="#papers">papers</a>, <a href="#teaching">teaching</a> materials, and <a href="#contact">contact</a> information.</p></nav>   
+        <section id="about">
+        <h2>About</h2>
+        <p>My research lies at the intersection of the philosophy of mind, language, and cognitive science.
+            Since 2023, I have been working as a Research Assistant at the CSEN with the GT3 working group at <a href="https://www.college-de-france.fr/fr" target="_blank" rel="noopener noreferrer">Collège de France</a> - PSL. Under the guidance of <a href="https://www.reseau-canope.fr/conseil-scientifique-de-leducation-nationale-site-officiel/presentation/membres-du-csen/emmanuel-sander.html" target="_blank" rel="noopener noreferrer">Emmanuel Sander</a>, we are developping new resources to enhance mathematics education in France. Further details on our initiatives will be shared in due course!
+        <p>
+            I obtained my PhD in December 2022 from the <a href="http://www.institutnicod.org" target="_blank" rel="noopener noreferrer">Institut Jean Nicod</a>, <a href="https://www.ens.psl.eu/" target="_blank" rel="noopener noreferrer">École Normale Supérieure</a> in Paris. My supervisors were <a href="https://www.college-de-france.fr/chaire/francois-recanati-philosophie-du-langage-et-de-esprit-chaire-statutaire" target="_blank" rel="noopener noreferrer">François Recanati</a> and <a href="http://www.caphi.univ-nantes.fr/_Michael-Murez_" target="_blank" rel="noopener noreferrer">Michael Murez</a>.
+       
+            In my thesis, I have investigated how we share representations in linguistic communication.
+            My hypothesis is that communication does not involve the replication of thought from speaker to hearer, but rather a form of coordination of thoughts.
+            My goal has been to characterize and explain interpersonal coordination so construed.
+        </p>
+        <p>
+            Besides coordination in linguistic communication, I am interested in:
+        </p>
+        <ul>
+            <li>inner speech;</li>
+            <li>human-machine semantic interactions.</li>
+        </ul>
+    </section>
+
+        <section id="papers">
+            <h2>Papers</h2>
+            <p><strong>Shareability of Thought and Frege’s Constraint: A Reply to Onofri</strong> <br>
+                <i>Inquiry: An Interdisciplinary Journal of Philosophy </i>(2022) <br>
+                <a href="javascript:void(0)" id="toggleAbstract">abstract</a> | 
+                <a type="application/pdf" href="https://nbviewer.org/github/romainbourdoncle/romainbourdoncle.github.io/blob/0e427b9e06fc0d17cc54b1bd31292400ee2570be/papers/shar.pdf">preprint</a> | 
+                <a href="https://doi.org/10.1080/0020174X.2022.2034526">doi</a> | 
+                <a href="https://raw.githubusercontent.com/romainbourdoncle/romainbourdoncle.github.io/main/papers/shar_cite.txt">cite</a> |
+                <a href="https://www.tandfonline.com/eprint/KF44MMV2KTENSE3UTE8R/full?target=10.1080/0020174X.2022.2034526">eprint link</a>
+            </p>
+        <div id="paperAbstract" style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease-in-out; font-size: 0.875em; font-family: 'Fira Sans', sans-serif;">
+            <p>Onofri [Onofri, A. 2018. ‘The Publicity of Thought.’ Philosophical Quarterly 68 (272): 521–541.] proposes an individuation criterion for thoughts that purports to satisfy both shareability (the notion that different thinkers, or a single thinker at different times, can and generally do think type-identical thoughts) and Frege's constraint (according to which two thoughts are different if it is possible for a rational subject to endorse one while rejecting the other). I argue that his proposal fails to satisfy Frege's constraint. Then I propose a modification to Onofri's proposal to fix the problem.</p>
+        </div>
+        </section>        
 
 <section id="teaching">
 <h2>Teaching</h2>
 <h4>As instructor:</h4>
 <ul>
-    <li>Computer science and philosophy, fall 2021, Université Paris 1 Panthéon-Sorbonne. Course description <a href="https://cours.univ-paris1.fr/course/view.php?id=3411">here (in French)</a>.</li>
-    <li>Language and thought, fall 2019, Université PSL. Course material <a href="https://app.schoology.com/course/2281092808/materials">here</a>.</li>
+    <li>Computer science and philosophy, fall 2021, Université Paris 1 Panthéon-Sorbonne. Course description <a href="https://cours.univ-paris1.fr/course/view.php?id=3411" target="_blank" rel="noopener noreferrer">here (in French)</a>.</li>
+    <li>Language and thought, fall 2019, Université PSL. Course material <a href="https://app.schoology.com/course/2281092808/materials" target="_blank" rel="noopener noreferrer">here</a>.</li>
     </ul>
 <h4>As teaching assistant:</h4>
 <ul>
@@ -64,26 +121,39 @@ My goal has been to characterize and explain interpersonal coordination so const
     </ul>
 </section>
 
-
-</section>
-
 <section id="contact">
-<h2>Contact info</h2>
+    <h2>Contact info</h2>
+    <p>Feel free to reach out.</p>
+    <p style="font-family: 'Fira Sans', sans-serif;">GT3 | CSEN |
+        Collège de France <br> 
+        11 Pl. Marcelin Berthelot 75005 </p>
+    
+    <p><tt>&lt;myfirstname&gt;.&lt;mylastname&gt;@psl.eu</tt></p> 
 
-<p><tt>&lt;myfirstname&gt;.&lt;mylastname&gt;@ens.fr</tt></p> 
-
-<p><a href="https://orcid.org/
-0000-0003-4056-3265">
-<img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
-    https://orcid.org/
-    0000-0003-4056-3265
-    </a></p> 
+    <p><a href="https://orcid.org/0000-0003-4056-3265">
+        <img style="max-width: 100%; height: auto;" alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
+        https://orcid.org/0000-0003-4056-3265
+        </a></p> 
    
     <div id="philpeople-component-follow_btn"></div>
-<script type="text/javascript" src="https://philpeople.org/components/follow_btn?props%5B%3Aprofile_id_prop%5D=400914&amp;props%5Bcontext%5D=external"></script>
+    <script type="text/javascript" src="https://philpeople.org/components/follow_btn?props%5B%3Aprofile_id_prop%5D=400914&amp;props%5Bcontext%5D=external"></script>
 
+    <figure>
+        <img src="G(456,0.008)_randomgraph.svg" alt="A randomly generated G(456,0.008) graph" class="responsive-image" style="max-width: 100%; height: auto;">
+        <figcaption>A random graph generated using <a href="https://github.com/romainbourdoncle/graphGenerator/blob/8849375558bf6dc1141629ee125d9108df4d7932/src/graphGenerator5.py" target="_blank" rel="noopener noreferrer">this script</a>.</figcaption>
+    </figure>
+    
 </section>
-
+<script type="text/javascript">
+    document.getElementById("toggleAbstract").addEventListener("click", function() {
+        var abstractDiv = document.getElementById("paperAbstract");
+        if (abstractDiv.style.maxHeight === "0px") {
+            abstractDiv.style.maxHeight = "500px";  
+        } else {
+            abstractDiv.style.maxHeight = "0px";
+        }
+    });
+</script>
 </body>
 
 
