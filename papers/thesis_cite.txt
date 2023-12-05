@@ -1,4 +1,4 @@
-@phdthesis{Bourdoncle2022-ROMSLF-3,
+@phdthesis{Bourdoncle2022b,
 	school = {Ecole Normale Sup\'{e}rieure},
 	year = {2022},
 	title = {Samethinking},
