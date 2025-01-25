@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://romainbourdoncle.github.io/</loc>
-        <lastmod>2024-10-16</lastmod>
+        <lastmod>2025-01-25</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
@@ -17,7 +17,12 @@
     </url>
     <url>
         <loc>https://romainbourdoncle.github.io/inf-strRG.html</loc>
-        <lastmod>2024-10-16</lastmod>
+        <lastmod>2025-01-25</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://romainbourdoncle.github.io/Talks.html</loc>
+        <lastmod>2025-01-25</lastmod>
         <priority>0.80</priority>
     </url>
 </urlset>
